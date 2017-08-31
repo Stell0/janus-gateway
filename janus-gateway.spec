@@ -1,6 +1,6 @@
 Name:    janus-gateway
-Version: 0.2.3
-Release: 2%{?dist}
+Version: 1.0.0
+Release: 1%{?dist}
 Summary: General purpose WebRTC gateway
 Group: Network
 License: GPLv2
@@ -43,3 +43,6 @@ rm -rf %{buildroot}
 %{_unitdir}/janus-gateway.service
 
 %changelog
+* Thu Aug 31 2017 Edoardo Spadoni <edoardo.spadoni@nethesis.it> - 1.0.0-1
+Release 1.0.0
+
